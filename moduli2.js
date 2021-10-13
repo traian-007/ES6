@@ -1,4 +1,4 @@
-import alert  from "./moduli1.js"
+import  alert  from "./moduli1.js"
 
 const $btn2 = document.getElementById('btn2')
 $btn2.addEventListener('click', alert)
