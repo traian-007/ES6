@@ -4,10 +4,10 @@ $btn2.addEventListener("click", e => {
 
     import('/moduli1.js')
       .then(module => {
-        module.loadPageInto($btn2);
+        module.default; 
       })
       .catch(err => {
-        $btn2.textContent = err.message;
+        console.log(err.message);
       });
-    alert() 
+     
 });
