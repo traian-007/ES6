@@ -4,7 +4,7 @@ $btn2.addEventListener("click", e => {
 
     import('/moduli1.js')
       .then(module => {
-        module.default; 
+        module.default(); 
       })
       .catch(err => {
         console.log(err.message);
