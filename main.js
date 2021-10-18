@@ -22,6 +22,9 @@ class Dog extends Animal {
     changeParentName(name) {
         this.changeName = name
     }
+    changeParentNameViaDogName() {
+        this.changeName = this.name
+    }
 }
 const ab = new Dog('bob')
 ab.created = new Date()
